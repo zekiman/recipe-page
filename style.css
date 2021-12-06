@@ -1,0 +1,210 @@
+:root{
+  /* ROOT FONT FAMILY  */
+  --Playfair: 'Playfair Display', serif;
+  --MontserratFont: 'Montserrat', sans-serif;
+
+  /* ROOT COLOURS */
+  --orange: #f2994a;
+  --grey1: #333333;
+  --grey2: #4f4f4f;
+  --grey4: #bdbdbd
+}
+
+html{
+    font-size: 10px;
+}
+
+.orange{
+    color: var(--orange) !important;
+}
+
+@media only screen and (max-width: 375px) {
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: .2s linear;
+}
+
+body {
+    background-color: #fff;
+}
+
+a, p  {
+    text-decoration: none; 
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 128.6rem;
+}
+
+.container{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+/* ! HEADER */
+#header{
+    margin-top: 3.2rem;
+}
+
+.title-text{
+    font-family: var(--Playfair);
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.header-text-all-div{
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.header-text{
+    font-family: var(--MontserratFont);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--grey2)
+}
+
+.icon span{
+    font-size: 1.4rem;
+    margin-right: 1.2rem;
+    color: #c4c4c4;
+}
+
+.img-div{
+    
+    margin-bottom: 2.4rem;
+}
+
+.img-div img {
+    border-radius: 1.2rem;
+    height: 20.2rem;
+}
+/* ! HEADER | ENDS */
+
+
+/* ! MAIN SECTION */
+#main-section{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* ! Main Right */
+#main-right{
+    margin-bottom: 2rem;
+}
+
+
+.info-div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.info-icon{
+    margin-right: .4rem;
+}
+
+
+.info-title{
+    font-family: var(--MontserratFont);
+    font-weight: bold;
+    font-size: .8rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    color: var(--grey4);
+    margin-bottom: .1rem;
+}
+
+
+.info-text{
+    font-family: var(--MontserratFont);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.info-icon span{
+    font-size: 2rem;
+    color: var(--grey2);
+}
+
+.time-infos{
+    display: flex;
+    max-width: 80vw;
+    justify-content: space-between;
+}
+/* ! Main Right | Ends */
+ 
+
+/* ! Main Left */
+.main-left-title-div{
+    margin-bottom: 1.3rem;
+}
+
+.main-left-title{
+    font-family: var(--Playfair);
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: var(--grey1);
+}
+
+.food-name-div{
+    margin-bottom: 2.4rem;
+}
+
+.food-name-text{
+    font-family: var(--Playfair);
+    font-style: italic;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+}
+
+.ingredient-item-div{
+    display: flex;
+}
+
+.checkbox-ingredient{
+    
+}
+
+.checkbox-ingredient input{
+    height: 2.1rem;
+    width: 2.1rem;
+    margin-top: .5rem;
+    margin-right: .8rem;
+}
+
+.text-ingredient{
+    font-family: var(--MontserratFont);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: var(--grey1);
+    margin-bottom: 1.4rem;
+}
+
+.mt-40{
+    margin-top: 2.5rem;
+}
+
+.fs-18{
+    font-size: 1.8rem;
+}
+
+
+
+
+}
